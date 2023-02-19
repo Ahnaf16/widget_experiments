@@ -10,6 +10,12 @@ RouteMap routesMasterMaps() {
           ),
       RouteNames.photoPicker.path: (route) => MaterialPage(
             child: RouteNames.photoPicker.page,
+          ),
+      RouteNames.adaptive.path: (route) => MaterialPage(
+            child: RouteNames.adaptive.page,
+          ),
+      RouteNames.animation.path: (route) => MaterialPage(
+            child: RouteNames.animation.page,
           )
     },
   );

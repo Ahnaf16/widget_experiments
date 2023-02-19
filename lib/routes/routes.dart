@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:routemaster/routemaster.dart';
 import 'package:widget_experiments/main.dart';
+import 'package:widget_experiments/src/animation/animations.dart';
 import 'package:widget_experiments/src/drop_zone/drag_drop.dart';
 import 'package:widget_experiments/src/drop_zone/photo_picker_ui.dart';
+import 'package:widget_experiments/src/responsive/adaptive_scaffold.dart';
 
 class Route {
   const Route({required this.path, required this.page});
@@ -48,8 +50,18 @@ class RouteNames {
     path: '/drag_drop',
     page: DragDrop(),
   );
+  static Route adaptive = const Route(
+    path: '/adaptive_page',
+    page: AdaptivePage(),
+  );
+  static Route animation = const Route(
+    path: '/animation_page',
+    page: Animations(),
+  );
 
   static final allRoutes = [
     photoPicker,
+    adaptive,
+    animation,
   ];
 }
