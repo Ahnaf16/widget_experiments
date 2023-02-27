@@ -16,6 +16,9 @@ RouteMap routesMasterMaps() {
           ),
       RouteNames.animation.path: (route) => MaterialPage(
             child: RouteNames.animation.page,
+          ),
+      RouteNames.overlay.path: (route) => MaterialPage(
+            child: RouteNames.overlay.page,
           )
     },
   );
