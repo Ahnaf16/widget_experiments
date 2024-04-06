@@ -126,9 +126,9 @@ class _DropperBoxState extends State<DropperBox> {
             alignment: Alignment.center,
             // height: widget.height,
             // width: widget.width,
-            child: Column(
+            child: const Column(
               mainAxisAlignment: MainAxisAlignment.center,
-              children: const [
+              children: [
                 Icon(Icons.cloud_upload_rounded),
                 Text('Drop File Here'),
               ],

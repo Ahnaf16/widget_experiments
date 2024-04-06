@@ -7,6 +7,8 @@ import 'package:widget_experiments/src/drop_zone/photo_picker_ui.dart';
 import 'package:widget_experiments/src/overlay/screen/overlay.dart';
 import 'package:widget_experiments/src/responsive/adaptive_scaffold.dart';
 
+import '../src/tapable_stack/tapable_stack.dart';
+
 class Route {
   const Route({required this.path, required this.page});
 
@@ -63,6 +65,10 @@ class RouteNames {
   static const Route overlay = Route(
     path: '/overlay_page',
     page: OverlayPage(),
+  );
+  static const Route tappableStack = Route(
+    path: '/overlay_page',
+    page: TappableStack(),
   );
 
   static final allRoutes = [

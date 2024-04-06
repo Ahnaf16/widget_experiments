@@ -15,9 +15,9 @@ class _AnimationsState extends State<Animations> {
       appBar: AppBar(
         title: const Text('Animations'),
       ),
-      body: Center(
+      body: const Center(
         child: Column(
-          children: const [
+          children: [
             SizedBox(height: 20),
             TopUpCard(),
           ],

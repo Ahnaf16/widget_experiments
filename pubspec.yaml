@@ -5,21 +5,20 @@ publish_to: "none"
 version: 1.0.0+1
 
 environment:
-  sdk: ">=2.19.2 <3.0.0"
+  sdk: ">=3.0.0 <4.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
 
-  cupertino_icons: ^1.0.2
+  cupertino_icons: ^1.0.6
   routemaster: ^1.0.1
-  flutter_native_splash: ^2.2.17
-  flutter_dropzone: ^3.0.5
-  flutter_adaptive_scaffold: ^0.1.0
-  flutter_riverpod: ^2.2.0
-  flutter_animations: ^0.0.1+10
-  flutter_animate: ^4.0.0
-  flutter_easyloading: ^3.0.5
+  flutter_native_splash: ^2.4.0
+  flutter_dropzone: ^4.0.0
+  flutter_adaptive_scaffold: ^0.1.10+1
+  flutter_riverpod: ^2.5.1
+  flutter_animate: ^4.5.0
+  hooks_riverpod: ^2.5.1
 
 dev_dependencies:
   flutter_test:
